@@ -68,7 +68,8 @@ export default function Page4() {
                 borderRadius: 10,
                 padding: 5,
                 marginTop: 20,
-                cursor: status[index] === "complete" ? "not-allowed" : "pointer",
+                cursor:
+                  status[index] === "complete" ? "not-allowed" : "pointer",
               }}
               onMouseEnter={() => handleMouseEnter(index)}
               onMouseLeave={() => handleMouseLeave(index)}
